@@ -1,6 +1,6 @@
-# Basic-Portfolio
+# Responsive-Portfolio
 Bootcamp Assignment: Portfolio
 
-July 26th, 2016
+August 6th, 2016
 
-Creation of a github repository to begin work on my personal portfolio.
+Creation of a github repository to begin work on the responsive version of the  personal portfolio.
