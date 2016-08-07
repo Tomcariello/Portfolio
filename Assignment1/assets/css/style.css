@@ -240,11 +240,91 @@ button:hover {
 
 /*Media Queries to control layout at different pixel widths*/
 
-
-
-@media (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 640px) {
 	.container {
-		height: 1150px;
+		height: 2500px;
+		width:640px;
+	}
+	.about {
+		width: 618px;
+		float: left;
+		padding: 5px 5px 5px 5px;
+		margin: 5px 3px;
+	}
+	.connect {
+		width: 618px;
+		float: left;
+		padding: 5px 5px 5px 5px;
+		margin: 5px 3px;
+	}
+	.profile {
+	    width: 500px;
+	    display: block;
+	    float: none;
+	    padding: 5px 0px 15px 0;
+	    margin: auto;
+	}
+	img {
+		margin: 0;
+	}
+	.pf1, .pf2, .pf3, .pf4, .pf5 {
+		float: left;
+		width: 525px;
+		color: #ffffff;
+		margin-left: 0px;
+	}
+
+	.text1 {
+		position: relative;
+		bottom: 65px;
+		left: 72px;
+		background-color: #4aaaa5;
+		text-align: center;
+		height: 20px;
+		width: 450px;
+		margin: 0 35px 0 0;
+	    padding: 10px 0;
+	    text-decoration: bold;
+	    font-size: 20px;
+	}
+
+	.pfimage {
+		width: 450px;
+		margin: 10px 72px;
+	}
+
+	.pf_container {
+		margin-top: 20px;
+		width: 525px;
+	}
+	header h1 {
+		background-color: #4aaaa5;
+		float: none;
+		height: 35%;
+		padding: 10px 0 15px 0;
+		margin-left: 14px;
+		color: #ffffff;
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size:36px;
+		text-align: center;
+	}
+	.menu {
+		height: 68px;
+		background-color: #ffffff;
+	}
+	header li {
+		display: inline-block;	
+		float: right;
+		margin: 0px;
+		width: 30%;
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+	.container {
+		height: 2100px;
 	}
 	.about {
 		width: 618px;
@@ -258,5 +338,83 @@ button:hover {
 		padding: 15px 15px 15px 15px;
 		margin: 20px 14px;
 	}
+	.profile {
+	    width: 400px;
+	    display: block;
+	    clear: both;
+	    padding: 5px 15px 15px 0;
+	}
+
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 980px) {
+	.container {
+		height: 2100px;
+	}
+	.about {
+		width: 525px;
+		float: left;
+		padding: 15px 15px 5px 15px;
+		margin:20px 14px;
+	}
+	.profile {
+	    width: 525px;
+	    display: block;
+	    clear: both;
+	    padding: 5px 15px 15px 0;
+	}
+	img {
+		margin: 0;
+	}
+	.pf1, .pf2, .pf3, .pf4, .pf5 {
+		float: left;
+		width: 525px;
+		color: #ffffff;
+		margin-left: 0px;
+	}
+
+	.text1 {
+		position: relative;
+		bottom: 65px;
+		left: 72px;
+		background-color: #4aaaa5;
+		text-align: center;
+		height: 20px;
+		width: 350px;
+		margin: 0 35px 0 0;
+	    padding: 10px 0;
+	    text-decoration: bold;
+	    font-size: 20px;
+	}
+
+	.pfimage {
+		width: 350px;
+		margin: 10px 72px;
+	}
+
+	.pf_container {
+		margin-top: 20px;
+		width: 525px;
+	}
+	.connect {
+		width: 270px;
+		float: left;
+		padding: 15px 15px 15px 15px;
+		margin: 20px 14px;
+	}
+	input[type=text] {
+		width: 520px;
+		color: #aaaaaa;
+	}
+
+	textarea {
+		width: 520px;
+		height: 200px;
+		color: #cccccc;
+	}
+
 }
 
