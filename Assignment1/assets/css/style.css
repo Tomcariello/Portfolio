@@ -49,6 +49,7 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*Profile Image properties*/
 .profile {
 	width: 200px;
 	display: block;
@@ -68,11 +69,11 @@ header li {
 	border-right: 1px solid #cccccc;
 }
 .main {
-	width: 960px;
+	max-width: 960px;
 }
 section {
 	clear: both;
-	width: 900px
+	max-width: 900px
 	min-height: 600px;
 	margin: auto;
 }
@@ -105,7 +106,7 @@ p {
 	border: 1px solid #dddddd;
 }
 .about {
-	width: 618px;
+	max-width: 618px;
 	float: left;
 	padding: 15px 15px 50px 15px;
 	margin:20px 14px;
@@ -161,16 +162,18 @@ footer {
 	float: left;
 	width: 270px;
 	color: #ffffff;
+	margin-left: 20px;
 }
 
 .text1 {
 	position: relative;
 	bottom: 50px;
+	left: 35px;
 	background-color: #4aaaa5;
 	text-align: center;
 	height: 20px;
 	width: 250px;
-	margin: 0 35px;
+	margin: 0 35px 0 0;
     padding: 10px 0;
     text-decoration: bold;
     font-size: 20px;
@@ -215,3 +218,45 @@ button {
 button:hover {
 	background-color: #6cccc7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries to control layout at different pixel widths*/
+
+
+
+@media (max-width: 768px) {
+	.container {
+		height: 1150px;
+	}
+	.about {
+		width: 618px;
+		float: left;
+		padding: 15px 15px 5px 15px;
+		margin:20px 14px;
+	}
+	.connect {
+		width: 618px;
+		float: left;
+		padding: 15px 15px 15px 15px;
+		margin: 20px 14px;
+	}
+}
+
