@@ -53,26 +53,26 @@ p {
 	margin-bottom: 10px;
 }
 
-}
 .about {
 	max-width: 618px;
-	float: left;
+	height: 10%0;
+	/*float: left;*/
 	padding: 15px 15px 50px 15px;
 	margin:20px 14px;
 }
 
 .aboutme {
 	color: #4aaaa5;
-	height: 30px;
+	/*height: 30px;*/
 	padding: 5px 0 20px 0;
 	border-bottom: 1px solid #dddddd;
-	width: 70%;
+	width: 100%;
 }
 .connect {
-	width: 28%;
+	width: 100%;
 	float: right;
 	padding: 15px 15px 15px 15px;
-	margin: 20px 8px 20px 0px;
+	margin: 20px 8px 40px 0px;
 }
 .icons {
 	border-top: 1px solid #dddddd;
