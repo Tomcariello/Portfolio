@@ -2,8 +2,11 @@
 
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Tom Cariello's Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://bootswatch.com/sandstone/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 	</head>
@@ -11,65 +14,91 @@
 <body>
 
 	<div class="container">
+		
 		<header>
-			<h1>Tom Cariello</h1>
-			<nav>
-				<ul>
-					<li ><a href="contact.html">Contact</a></li>
-					<li class="seperator"><a href="#">Portfolio</a></li>
-					<li><a href="index.html">About</a></li>
-				</ul>
+
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Tom Cariello</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			       </ul>
+			        
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">About</a></li>
+			        <li><a href="#">Portfolio</a></li>
+			        <li><a href="contact.html">Contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
 			</nav>
+
 		</header>
 
-		<section class="main">
-			
-			<div class="about"> <!-- entire about window -->
 
-				<div class="aboutme">
-						<h2>Portfolio</h2>
-				</div>
-
-				<content>
-					<div class="pf_container">
-						<div class="pf1"><a href="#"><img src="assets/images/1.jpg" alt="Portfolio Image 1"></a>
-							<div class="text1">Hangman</div>
-						</div>
-						<div class="pf2"><a href="#"><img src="assets/images/2.jpg" alt="Portfolio Image 2"></a>
-							<div class="text1">RPG Game</div>
-						</div>
-						<div class="pf3"><a href="#"><img src="assets/images/3.jpg" alt="Portfolio Image 3"></a>
-							<div class="text1">Trivia Game</div>
-						</div>
-						<div class="pf4"><a href="#"><img src="assets/images/4.jpg" alt="Portfolio Image 4"></a>
-							<div class="text1">Rutgers Info Widget</div>
-						</div>
-						<div class="pf5"><a href="#"><img src="assets/images/5.jpg" alt="Portfolio Image 5"></a>
-							<div class="text1">Rock Paper Scissors</div>
+	<section class="main">
+			<row>
+				<div class="col-sm-12 col-md-8">
+					<div class="aboutme">
+						<div class="panel panel-default">
+						 	<div class="panel-heading"><h3>About Me</h3></div>
+						 	<div class="panel-body">
+								<row>
+									<div class="pf_container">
+										<div class="pf1"><a href="#"><img src="assets/images/1.jpg" alt="Portfolio Image 1"></a>
+											<div class="text1">Hangman</div>
+										</div>
+										<div class="pf2"><a href="#"><img src="assets/images/2.jpg" alt="Portfolio Image 2"></a>
+											<div class="text1">RPG Game</div>
+										</div>
+										<div class="pf3"><a href="#"><img src="assets/images/3.jpg" alt="Portfolio Image 3"></a>
+											<div class="text1">Trivia Game</div>
+										</div>
+										<div class="pf4"><a href="#"><img src="assets/images/4.jpg" alt="Portfolio Image 4"></a>
+											<div class="text1">Rutgers Info Widget</div>
+										</div>
+										<div class="pf5"><a href="#"><img src="assets/images/5.jpg" alt="Portfolio Image 5"></a>
+											<div class="text1">Rock Paper Scissors</div>
+										</div>
+									</div>
+								</row>
+							</div>		
 						</div>
 					</div>
-				</content>
-			</div>
-
-			<content>
-				<div class="connect">
-
-					<h3>Connect With Me</h3>
-					
-					<ul class="icons">
-						<li><a href="https://github.com/Tomcariello" target="_blank"><img src="assets\images\github.png" alt="github"></a></li>
-						<li><a href="http://www.linkedin.com/in/tom-cariello" target="_blank"><img src="assets\images\linkedin.png" alt="Linkedin"></a></li>
-						<li><a href="http://stackoverflow.com/users/6637361/tom-cariello" target="_blank"><img src="assets\images\stack.png" alt="Stack OverFlow"></a></li>
-					</ul>
 				</div>
-			</content>
+			</row>
+
+				<div class="col-sm-12 col-md-4">
+					<div class="connect">
+						<div class="panel panel-default">
+						  <div class="panel-heading"><h5>Connect with Me</h5></div>
+							  <div class="panel-body">
+								<ul class="icons">
+									<li><a href="https://github.com/Tomcariello" target="_blank"><img src="assets\images\github.png" alt="github"></a></li>
+									<li><a href="http://www.linkedin.com/in/tom-cariello" target="_blank"><img src="assets\images\linkedin.png" alt="Linkedin"></a></li>
+									<li><a href="http://stackoverflow.com/users/6637361/tom-cariello" target="_blank"><img src="assets\images\stack.png" alt="Stack OverFlow"></a></li>
+								</ul>
+							  </div>
+							</div>		
+						</div>
+					</div>
+			</row>
 		</section>
 
 
-		<footer>
-			<div class="foot">
-				&copy; Copyright 2016 Tom Cariello
-			</div>
+		<footer class="navbar-default navbar-settings">
+			<div class="footer-content"><p>Copyright 2016 Tom Cariello</p></div>
 		</footer>
 
 	</div>
