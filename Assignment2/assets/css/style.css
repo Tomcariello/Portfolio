@@ -53,26 +53,26 @@ p {
 	margin-bottom: 10px;
 }
 
-}
 .about {
 	max-width: 618px;
-	float: left;
+	height: 10%0;
+	/*float: left;*/
 	padding: 15px 15px 50px 15px;
 	margin:20px 14px;
 }
 
 .aboutme {
 	color: #4aaaa5;
-	height: 30px;
+	/*height: 30px;*/
 	padding: 5px 0 20px 0;
-	border-bottom: 1px solid #dddddd;
-	width: 70%;
+	/*border-bottom: 1px solid #dddddd;*/
+	width: 100%;
 }
 .connect {
-	width: 28%;
+	width: 100%;
 	float: right;
 	padding: 15px 15px 15px 15px;
-	margin: 20px 8px 20px 0px;
+	margin: 20px 8px 40px 0px;
 }
 .icons {
 	border-top: 1px solid #dddddd;
@@ -109,7 +109,7 @@ footer {
 
 .pf1, .pf2, .pf3, .pf4, .pf5 {
 	float: left;
-	width: 270px;
+	width: 260px;
 	color: #ffffff;
 	margin-left: 20px;
 }
@@ -117,20 +117,18 @@ footer {
 .text1 {
 	position: relative;
 	bottom: 50px;
-	left: 35px;
 	background-color: #4aaaa5;
 	text-align: center;
-	height: 20px;
+	height: 35px;
 	width: 250px;
-	margin: 0 35px 0 0;
-    padding: 10px 0;
+    padding: 4px 0;
     text-decoration: bold;
     font-size: 20px;
 }
 
 img {
 	width: 250px;
-	margin: 0 35px;
+	/*margin: 0 35px;*/
 }
 
 .pf_container {
@@ -146,12 +144,12 @@ form > p {
 }
 
 input[type=text] {
-	width: 600px;
+	width: 100%;
 	color: #aaaaaa;
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 200px;
 	color: #cccccc;
 }
